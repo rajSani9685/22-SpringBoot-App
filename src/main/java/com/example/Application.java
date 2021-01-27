@@ -10,6 +10,7 @@ public class Application {
 	public static void main(String[] args) {
 		//change in my status-hb-134
 		ConfigurableApplicationContext run=SpringApplication.run(Application.class,args);
+int a=10;
 		run.close();
 	}
 
