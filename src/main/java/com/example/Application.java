@@ -12,6 +12,7 @@ public class Application {
 		ConfigurableApplicationContext run=SpringApplication.run(Application.class,args);
 int a=10;
 int b=20;
+String str="Rajkumar";
 		run.close();
 	}
 
